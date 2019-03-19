@@ -21,3 +21,15 @@ function johnLennonFacts(facts) {
   
   return aboutJohn
 }
+
+function iLoveTheBeatles(num) {
+  var i = 0, loveArray = []
+  
+  do {
+    loveArray[i] = "I love the Beatles!"
+    i++
+    num ++
+  } while (num < 15)
+}
+
+
