@@ -6,4 +6,6 @@ function theBeatlesPlay(musicians,instruments) {
   for (var count = 0; count < musicians.length; count++) {
     whoPlaysWhat[count] = `${musicians[count]} plays ${instruments[count]}`;
   }
+  
+  return whoPlaysWhat;
 }
